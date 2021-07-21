@@ -29,14 +29,14 @@ console.log("\r 8. If the file with text written is already present then append 
 
 
 rl.question("\nChoose any of the following options bellow ?\n\n", function(option) {
-    console.log(`You have selected '${option}' option.`);
+    console.log(`You have selected '${option}' option.\n`);
 
 
     
     switch (option) {
         
         case '1':
-            case1.c1("fileC.txt");
+            case1.c1("file.txt");
             break;
         case '2':
             case2.c2();
@@ -65,15 +65,8 @@ rl.question("\nChoose any of the following options bellow ?\n\n", function(optio
 
         default:
             console.log("default");
-            console.log(option);
             break;
     }
 
     rl.close();
 });
-
-
-
-// rl.on("close", function() {
-//     console.log("\nBYE BYE !!!");
-// });
