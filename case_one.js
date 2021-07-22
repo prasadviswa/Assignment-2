@@ -11,6 +11,7 @@ function c1(filename)
         }
         else
         {
+            console.log("File exist");
             return true;
         }
     });
