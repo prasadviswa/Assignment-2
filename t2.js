@@ -62,7 +62,6 @@ rl.question("\nChoose any of the following options bellow ?\n\n", function(optio
         case '9':
             ad();
             break;
-
         default:
             console.log("default");
             break;
